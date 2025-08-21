@@ -343,11 +343,17 @@ a {
 }
 
 /* --- Icon types --- */
-.item-icon.urgent {
+.item-icon.profile {
   background-color: #58a1fe;
 }
-.item-icon.urgent svg {
+.item-icon.profile svg {
   color: #ffffff;
+}
+.item-icon.urgent {
+  background-color: rgba(239, 68, 68, 0.12);
+}
+.item-icon.urgent svg {
+  color: #ef4444;
 }
 .item-icon.counseling {
   background-color: rgba(59, 130, 246, 0.12);
